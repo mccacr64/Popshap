@@ -1,0 +1,37 @@
+ul{
+    height: 520px;
+    width: 1080px;
+    padding: 0;
+    list-style: none;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+li{
+    height: 104px;
+    padding: 0px 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 46px;
+    font-weight: 500;
+}
+li:nth-child(odd){
+    background: #5769be;
+}
+li:nth-child(even){
+    background: none;
+}
+span{
+    color:#fcd44b;
+    font-weight: 700;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

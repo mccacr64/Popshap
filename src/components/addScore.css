@@ -1,0 +1,51 @@
+.addScoreContainer{
+  padding: 0 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form label{
+  height: 162px;
+  text-align: left;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 162px;
+}
+
+form input{
+  height: 104px;
+  width: 869px;
+  padding: 0px 35px;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 162px;
+  border: none;
+  background: #5262ad;
+  color: #ffffff;
+}
+
+input:focus{
+  background: #5262ad;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #9ba7dd;
+}
+
+.score{
+  height: 193px;
+  width: 376px;
+  padding: 0px;
+  font-size: 128px;
+  font-weight: 500;
+  line-height: 162px;
+  text-align: center;
+}
